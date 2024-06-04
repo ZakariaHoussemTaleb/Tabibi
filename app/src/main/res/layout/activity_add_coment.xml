@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddComent">
+
+    <TextView
+        android:id="@+id/textView502"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Prenez votre rendez-vous :"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/border"
+        android:backgroundTint="@color/material_dynamic_neutral95"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="write your comment here."
+        android:inputType="textMultiLine"
+        android:minLines="6"
+        android:padding="12dp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rate the doctor services of 5 stars:"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextNumberDecimal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/button62"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#FDF6FE"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="Publish"
+        android:textColor="@color/color2"
+        android:textSize="20sp"
+        android:textStyle="normal|bold"
+        app:cornerRadius="5dp"
+        app:strokeColor="@color/color2"
+        app:strokeWidth="2dp" />
+
+</LinearLayout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layoutDescription="@xml/activity_info_scene2"
+    tools:context=".Info">
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imageView13"
+            android:layout_width="292dp"
+            android:layout_height="292dp"
+            android:layout_gravity="center"
+            android:foregroundGravity="center"
+            app:shapeAppearanceOverlay="@style/circular"
+            tools:srcCompat="@drawable/bg" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="TextView"
+            android:textSize="34sp"
+            android:textStyle="normal|bold" />
+
+        <ScrollView
+            android:layout_width="390dp"
+            android:layout_height="191dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:text="Dr. Taleb Zakaria Houssem Eddine is a highly experienced and dedicated physician specializing in internal medicine. He earned his medical degree from Harvard Medical School in 2005, where he graduated with honors. Following his graduation, Dr. Houssem Eddine completed his residency at Massachusetts General Hospital, gaining extensive experience in diagnosing and treating a wide range of complex medical conditions. With over 15 years of practice, he has developed a reputation for his compassionate patient care and thorough diagnostic skills.  Dr. Houssem Eddine currently serves as the Head of Internal Medicine at City Health Clinic, a leading healthcare facility known for its patient-centered approach. He is actively involved in medical research and has published numerous articles in prestigious medical journals, contributing to advancements in his field. Dr. Houssem Eddine is also a member of the American College of Physicians and regularly attends national conferences to stay updated with the latest medical developments.  In addition to his clinical work, Dr. Houssem Eddine is committed to medical education, frequently mentoring medical students and residents. His dedication to both his patients and the medical community makes him a respected and trusted doctor, known for his expertise and unwavering commitment to improving patient health."
+                android:textSize="20sp" />
+        </ScrollView>
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#FDF6FE"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:text="Take your appointment"
+            android:textColor="@color/color2"
+            android:textSize="20sp"
+            android:textStyle="normal|bold"
+            app:cornerRadius="5dp"
+            app:strokeColor="@color/color2"
+            app:strokeWidth="2dp" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableBottom="@drawable/swipe_up"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:text="Swip Up to View comments" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:drawableBottom="@drawable/swipe_down"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="Swipe Down to return"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout6"
+        tools:layout_editor_absoluteX="130dp" />
+
+    <ListView
+        android:id="@+id/listView2"
+        android:layout_width="match_parent"
+        android:layout_height="439dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="376dp" />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>

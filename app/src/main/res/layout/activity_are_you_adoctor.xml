@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AreYouAdoctor">
+
+    <TextView
+        android:id="@+id/textView67"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Hello Doctor"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01" />
+
+    <TextView
+        android:id="@+id/textView68"
+        android:layout_width="348dp"
+        android:layout_height="579dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Welcome to Tabibi! \n  We are thrilled to have you join our community of esteemed healthcare professionals. \n   With Tabibi, you'll discover a range of features designed to streamline your practice and enhance your patient care.  Why you'll love Tabibi:  \n      1 . Effortless Appointment Management: Schedule and organize your appointments with ease. Our intuitive interface helps you avoid scheduling conflicts and maximizes your available time.   \n     2 . Comprehensive Patient Records: Access and update patient files securely from anywhere. Stay informed with detailed medical histories and treatment plans at your fingertips. \n      3 . Time-Saving Tools: Minimize administrative tasks and reduce time spent on paperwork. Focus more on patient care and less on managing appointments manually.\n      4 .  Enhanced Visibility: Promote your services and expertise to a wider audience. Let patients discover your profile, specialties, and services effortlessly.  We are confident that Tabibi will not only help you manage your practice more efficiently but also improve the overall patient experience.  Thank you for choosing Tabibi. We look forward to supporting you in providing exceptional healthcare services. \n    Warm regards,  The Tabibi Team"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView67"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FEFEFE"
+        android:onClick="joinUs"
+        android:text="Join Us !"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView68"
+        app:layout_constraintVertical_bias="0.0"
+        app:strokeColor="@color/color2"
+        app:strokeWidth="3dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

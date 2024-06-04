@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "667468987920",
+    "project_id": "tabibi-1abeb",
+    "storage_bucket": "tabibi-1abeb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:667468987920:android:0746d35514a74f856d1495",
+        "android_client_info": {
+          "package_name": "com.example.tabibiapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArBOJk3vGCktxTqeVQYh6udmf-BSePGRw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
